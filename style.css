@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #E5C3D1;
+    text-align: center;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    background-color: #7D82B8;
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #613F75;
+    cursor: pointer;
+}
+
+#reset-btn {
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: #1fc0ed;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    transition: all;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+}
+
+#new-btn {
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: #1fc0ed;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    transition: all;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+}
+
+#reset-btn:hover {
+    background-color: white;
+    color: #1fc0ed;
+}
+
+#new-btn:hover {
+    background-color: white;
+    color: #1fc0ed;
+}
+
+#msg{
+    color: rgb(241, 202, 150);
+    font-size:8vmin;
+    font-weight: 400;
+}
+
+.msg-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.hide{
+    display: none;
+}
