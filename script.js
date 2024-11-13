@@ -29,15 +29,13 @@ const resetGame = () => {
 
 Array.from(boxes).forEach((box) => {
     box.addEventListener("click", () => {
-        // box.classList.remove("red")
-        // box.classList.remove("blue")
         if (turnO) {
             box.innerText = "O";
-            box.style.color = "red"
+            box.style.color = "bisque"
             turnO = false;
         } else {
             box.innerText = "X"
-             box.style.color = "blue"
+             box.style.color = "#E5C3D1"
             turnO = true;
         }
         box.disabled = true   //Button Disabling
